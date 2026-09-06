@@ -19,11 +19,12 @@ BuildRequires: git
 
 Requires: steam
 Requires: gamescope
+Requires: mangohud
 Requires: (gamescope-session-steam or gamescope-session-ogui-steam or gamescope-session-opengamepadui or gamescope-session)
 Requires: /usr/bin/gdctl
 
 %description
-A launcher and desktop files to launch steam always in steamOS mode.
+A launcher and desktop files to launch steam in steamOS mode.
 Gnome only and requires a proper gamescope-session installed (Terra).
 
 %define workdir %{_builddir}/%{name}
